@@ -1,7 +1,7 @@
 {
-    "name": "Covid 19",
+    "name": "COVID-19",
     "version": "1.0",
-    "description": "COVID TRACKER",
+    "description": "COVID-19",
     "manifest_version": 2,
     "browser_action": {
         "default_title": "COVID TRACKER",
