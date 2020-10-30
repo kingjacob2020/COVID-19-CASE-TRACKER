@@ -1,8 +1,5 @@
-var country = prompt("Country:");
-if (country != 'all') {
-    fetch("https://corona.lmao.ninja/v2/countries/" + 'country')
-}
-else fetch("https://corona.lmao.ninja/v2/all")
+var country = window.prompt("Enter country");
+fetch('https://disease.sh/v3/covid-19/countries/' + country)
     .then(response => {
         return response.json()
     })
