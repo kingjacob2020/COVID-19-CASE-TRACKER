@@ -9,4 +9,4 @@ fetch('https://disease.sh/v3/covid-19/countries/' + country)
         document.getElementById('totalCases').textContent += data.cases
         document.getElementById('todayDeaths').textContent += data.todayDeaths
         document.getElementById('todayCases').textContent += data.todayCases
-    }
+    })
